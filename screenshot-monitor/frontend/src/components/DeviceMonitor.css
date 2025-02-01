@@ -1,0 +1,54 @@
+.device-monitor {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.device-monitor h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.status {
+  margin: 10px 0;
+}
+
+.status-indicator {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.status-indicator.online {
+  background-color: #4caf50;
+  color: white;
+}
+
+.status-indicator.offline {
+  background-color: #f44336;
+  color: white;
+}
+
+.screenshot-container {
+  margin-top: 20px;
+}
+
+.timestamp {
+  margin-top: 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.error {
+  color: #f44336;
+  margin: 20px 0;
+}
+
+.loading {
+  color: #666;
+  margin: 20px 0;
+} 
